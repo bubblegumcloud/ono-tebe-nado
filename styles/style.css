@@ -2,8 +2,9 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
+  justify-items: start;
   column-gap: 36px;
-  padding: 103px 68px 85px;
+  padding: 102px 68px 89px 67px;
 }
 
 .header__links-list {
@@ -148,7 +149,7 @@
 }
 
 .lots {
-  margin-bottom: 146px;
+  padding-bottom: 146px;
   padding-top: 179px;
 }
 
