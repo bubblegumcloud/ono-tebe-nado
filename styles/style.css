@@ -1,15 +1,15 @@
 .header {
   display: grid;
-  grid-template-columns: 454px 148px 450px;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  margin: 102px 6px 86px 42px;
+  column-gap: 36px;
+  padding: 103px 68px 85px;
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
   column-gap: 34px;
-  padding: 48px 36px 39px 26.52px;
   font-size: 18px;
   line-height: 22px;
   text-transform: lowercase;
@@ -31,8 +31,9 @@
 }
 
 .header__logo {
+  justify-self: end;
+  width: 148px;
   height: 105px;
-  padding-top: 4px;
 }
 
 .header__logo-image {
@@ -40,9 +41,7 @@
 }
 
 .header__address {
-  padding-top: 8px;
-  padding-left: 184px;
-  line-height: 24.3px;
+  justify-self: end;
 }
 
 .address {
